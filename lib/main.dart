@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
 class SurveyScreen extends StatelessWidget {
   const SurveyScreen({super.key});
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

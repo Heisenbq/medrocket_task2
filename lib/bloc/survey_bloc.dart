@@ -7,7 +7,6 @@ import '../repository/survey_repository.dart';
 
 class SurveyBloc extends Bloc<SurveyEvent, SurveyState> {
   final SurveyRepository surveyRepository;
-
   SurveyBloc(this.surveyRepository) : super(SurveyInitial()) {
     on<FetchSurveyEvent>(_onFetchSurvey);
   }

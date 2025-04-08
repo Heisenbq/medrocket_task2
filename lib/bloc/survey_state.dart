@@ -3,7 +3,6 @@ import '../model/survey.dart';
 abstract class SurveyState {}
 
 class SurveyInitial extends SurveyState {}
-
 class SurveyLoading extends SurveyState {}
 
 class SurveyLoaded extends SurveyState {
