@@ -8,6 +8,5 @@ class SurveyLoading extends SurveyState {}
 
 class SurveyLoaded extends SurveyState {
   final Survey survey;
-
   SurveyLoaded(this.survey);
 }
